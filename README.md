@@ -26,5 +26,37 @@ System Design Resources:
   - CHECK(Custom condition)
   - DEFAULT(Default value)
 
+ Filtering & Conditions:
+  - WHERE
+  - DISTINCT
+  - LIMIT & OFFSET
+  - =, !=, >, <, >=, <=
+  - BETWEEN
+  - IN
+  - LIKE (%, _)
+  - IS NULL
+
+Aggregate Functions:
+ - COUNT
+ - SUM
+ - AVG
+ - MIN
+ - MAX
+
+GROUP BY, HAVING & ORDER BY(DESC & ASC)
+
+Types of Joins:
+ - INNER JOIN(Matching rows)
+ - LEFT JOIN(All left + matched right)
+ - RIGHT JOIN(All right + matched left)
+ - SELF JOIN(Join table to itself)
+ - CROSS JOIN(Cartesian product)
+ - FULL JOIN(All records)
+
+Types Of Subqueries:
+ - Scalar Subquery
+ - Row Subquery
+ - Correlated Subquery
+
  
 
