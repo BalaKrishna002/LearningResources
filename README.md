@@ -19,12 +19,12 @@ System Design Resources:
    - TCL (COMMIT, ROLLBACK, SAVEPOINT) Transaction Control Language
 
  Table Constraints:
-  - PRIMARY KEY(Unique + Not Null)
-  - FOREIGN KEY(Referential integrity)
-  - UNIQUE(Ensures uniqueness)
-  - NOT NULL(No NULL values)
-  - CHECK(Custom condition)
-  - DEFAULT(Default value)
+  - PRIMARY KEY: Unique + Not Null
+  - FOREIGN KEY: Referential integrity
+  - UNIQUE: Ensures uniqueness
+  - NOT NULL: No NULL values
+  - CHECK: Custom condition
+  - DEFAULT: Default value
 
  Filtering & Conditions:
   - WHERE
@@ -46,17 +46,40 @@ Aggregate Functions:
 GROUP BY, HAVING & ORDER BY(DESC & ASC)
 
 Types of Joins:
- - INNER JOIN(Matching rows)
- - LEFT JOIN(All left + matched right)
- - RIGHT JOIN(All right + matched left)
- - SELF JOIN(Join table to itself)
- - CROSS JOIN(Cartesian product)
- - FULL JOIN(All records)
+ - INNER JOIN: Matching rows
+ - LEFT JOIN: All left + matched right
+ - RIGHT JOIN: All right + matched left
+ - SELF JOIN: Join table to itself
+ - CROSS JOIN: Cartesian product
+ - FULL JOIN: All records
 
 Types Of Subqueries:
  - Scalar Subquery
  - Row Subquery
  - Correlated Subquery
+
+Set Operations:
+ - UNION: Combines (no duplicates)
+ - UNION ALL: Combines (with duplicates)
+ - INTERSECT: Common rows
+ - EXCEPT / MINUS: Difference
+
+Normalization & Keys:
+ - 1NF: Atomic values
+ - 2NF: No partial dependency
+ - 3NF: No transitive dependency
+ - BCNF: Stronger 3NF
+   Explain Normalization vs Denormalization
+
+Transactions & ACID:
+ - Atomicity: All or nothing
+ - Consistency: Valid state
+ - Isolation: No interference
+ - Durability: Data persistence
+
+VIEW, PROCEDURE, FUNCTIONS & TRIGGER
+
+
 
  
 
